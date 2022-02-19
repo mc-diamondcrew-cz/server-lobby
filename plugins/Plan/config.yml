@@ -26,11 +26,11 @@ Plugin:
 Database:
     Type: MySQL
     MySQL:
-        Host: {$DB_HOST}
+        Host: {$PLAN_DB_HOST}
         Port: 3306
-        User: {$DB_USER}
-        Password: {$DB_PASSWORD}
-        Database: {$DB_DATABASE}
+        User: {$PLAN_DB_USER}
+        Password: {$PLAN_DB_PASSWORD}
+        Database: {$PLAN_DB_DATABASE}
         # Launch options to append after mysql driver address
         Launch_options: "?rewriteBatchedStatements=true&useSSL=false&serverTimezone=UTC"
         Max_connections: 8
