@@ -52,9 +52,9 @@ settings:
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
   velocity-support:
-    enabled: false
-    online-mode: false
-    secret: ''
+    enabled: true
+    online-mode: true
+    secret: '{$PROXY_FORWARDING_SECRET}'
   log-player-ip-addresses: true
   console:
     enable-brigadier-highlighting: true
